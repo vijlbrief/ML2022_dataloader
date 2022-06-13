@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "opdrach ML"
+version = "0.1.0"
+description = ""
+authors = ["Olav Vijlbrief"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.2"
+scipy = "^1.8.1"
+pathlib = "numpy"
+numpy = "^1.22.4"
+tensorflow = "^2.9.1"
+torch = "^1.11.0"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = "^0.961"
+pytest = "^7.1.2"
+pep8-naming = "0"
+flake8-annotations = "^2.9.0"
+hypothesis = "^6.47.2"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
